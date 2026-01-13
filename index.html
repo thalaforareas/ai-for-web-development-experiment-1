@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event Portal</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; line-height: 1.5; }
+        video, input, select, button { width: 100%; margin: 10px 0; }
+        .row { display: flex; gap: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Tech Event 2024</h2>
+    
+    
+    <video controls poster="https://via.placeholder.com/600x300"><source src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+    <audio controls><source src="https://www.w3schools.com/html/horse.mp3"></audio>
+
+    
+    <form action="#" method="POST">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone (123-456-7890)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        
+        <div class="row">
+            <label><input type="radio" name="t" required> Standard</label>
+            <label><input type="radio" name="t"> VIP</label>
+        </div>
+
+        <select>
+            <option>Web Development</option>
+            <option>AI & ML</option>
+        </select>
+
+        <label><input type="checkbox"> Include Lunch</label>
+        
+        <button type="submit" style="background: blue; color: white; border: none; padding: 10px;">Register Now</button>
+    </form>
+</body>
+</html>
